@@ -2,7 +2,7 @@
 #'
 #' @param order is data frame of electronic products.
 #' Products have prices in different currencies.
-#' @param currency
+#' @param currency Currency of interest.
 #'
 #' @importFrom  dplyr select
 #' @import magrittr

@@ -10,7 +10,7 @@ total_price(order, currency = "EUR")
 \item{order}{is data frame of electronic products.
 Products have prices in different currencies.}
 
-\item{currency}{}
+\item{currency}{Currency of interest.}
 }
 \value{
 Sum of all products’ prices from the given order,
