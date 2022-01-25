@@ -36,10 +36,9 @@ total_price <- function(order, currency = "EUR") {
         base::paste0("price_", currency)
         )
 
-    # If there are strings in the column such as 'none' or 'unknown' the rest
-    # of the column will be real prices will be read as a string. To solve that:
-
-    # Also used suprressWarning to avoid the Warning message
+    # If there are strings in the column such as 'none' or 'unknown',
+    # the real prices will be read as a string as well.
+    # To solve that:
 
     suppressWarnings(
         currency_column <- base::as.integer(currency_column[,1])
@@ -52,6 +51,8 @@ total_price <- function(order, currency = "EUR") {
     # Remove all non-integers (NAs, possible text)
 
     clean_currency_column <- currency_column[!is.na(currency_column)]
+
+
 
     total <- (clean_currency_column * (1 - discount)) %>% sum
     return(total)
