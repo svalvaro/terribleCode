@@ -52,8 +52,14 @@ total_price <- function(order, currency = "EUR") {
 
     clean_currency_column <- currency_column[!is.na(currency_column)]
 
+    # Sum the prices
+
+    sum_prices <- sum(clean_currency_column)
+
+    # Apply the discount if any
+
+    total <- sum_prices * (1 - discount)
 
 
-    total <- (clean_currency_column * (1 - discount)) %>% sum
     return(total)
 }
