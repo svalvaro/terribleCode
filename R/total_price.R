@@ -4,7 +4,7 @@
 #' Products have prices in different currencies.
 #' @param currency Currency of interest.
 #'
-#' @importFrom  dplyr select
+#' @importFrom  dplyr select contains
 #'
 #' @return Sum of all products’ prices from the given order,
 #' after applying a discount.
