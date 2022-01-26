@@ -6,6 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+The function is in the folder
+[R](https://github.com/svalvaro/terribleCode/tree/main/R)
+
 ## Installation
 
 You can install the development version of terribleCode from
