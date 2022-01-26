@@ -1,4 +1,4 @@
-testthat::test_that("The function is ignores missing values", {
+testthat::test_that("The function ignores the negative values", {
 
     # A data frame containing one negative value
     df <- data.frame(

@@ -1,4 +1,4 @@
-testthat::test_that("The function is able to deal with Missing Values", {
+testthat::test_that("The function ignores the missing values", {
 
     # A data frame containing one missing value
     df <- data.frame(
