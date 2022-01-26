@@ -139,6 +139,12 @@ total_price(vector, currency = 'CZK')
 #> Error in total_price(vector, currency = "CZK"): Data provided is not a data.frame
 ```
 
+## Less dependencies
+
+Lastly, I have removed the dependency of the `magritrr` package by
+removing the usage of the pipe: `%>%`. It was unnecessary and some users
+might not be familiar with it.
+
 # Tests
 
 A total of six different tests have been created for this function. They
