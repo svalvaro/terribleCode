@@ -33,6 +33,11 @@ total_price(df, currency = 'EUR')
 #> [1] 1036.8
 ```
 
+``` r
+(217+517+279+173+110)*0.8
+#> [1] 1036.8
+```
+
 # Improvements
 
 ## Missing values
@@ -123,12 +128,12 @@ total_price(df, currency = 'CZK')
 #> Error in total_price(df, currency = "CZK"): The prices for the provided currency were not found.
 ```
 
-## And error if the input provided is not a data frame
+## Error if the input provided is not a data frame
 
 ``` r
 vector <- c(217,517,279,173,110)
 total_price(vector, currency = 'CZK')
-#> Error in total_price(vector, currency = "CZK"): is.data.frame(order) is not TRUE
+#> Error in total_price(vector, currency = "CZK"): Data provided is not a data.frame
 ```
 
 # Tests

@@ -16,7 +16,7 @@ total_price <- function(order, currency = "EUR") {
 
     # Check if order is a data.frame as expected. Stop if not.
 
-    stopifnot(is.data.frame(order))
+    stopifnot('Data provided is not a data.frame' = is.data.frame(order))
 
     # Discount will be applied only to EUR and USD, on black friday is 50%
 
