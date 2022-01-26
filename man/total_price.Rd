@@ -2,7 +2,7 @@
 % Please edit documentation in R/total_price.R
 \name{total_price}
 \alias{total_price}
-\title{Calculates the price of}
+\title{Calculates the price of an order of electronics.}
 \usage{
 total_price(order, currency = "EUR")
 }
@@ -17,5 +17,5 @@ Sum of all products’ prices from the given order,
 after applying a discount.
 }
 \description{
-Calculates the price of
+Calculates the price of an order of electronics.
 }

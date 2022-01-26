@@ -1,4 +1,4 @@
-#' Calculates the price of
+#' Calculates the price of an order of electronics.
 #'
 #' @param order is data frame of electronic products.
 #' Products have prices in different currencies.
