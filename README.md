@@ -139,4 +139,5 @@ total_price(vector, currency = 'CZK')
 # Tests
 
 A total of six different tests have been created for this function. They
-are in the folder `/tests/testthat/`.
+are in the folder
+[tests]('https://github.com/svalvaro/terribleCode/tree/main/tests/testthat).
