@@ -1,6 +1,6 @@
 testthat::test_that("The function recognises numbers as strings", {
 
-    # A data frame containing one missing value
+    # A data frame containing two prices wrongly read as strings
     df <- data.frame(
         product = c('SmartWatch', 'laptop', 'monitor'),
         price_USD = c('249', '517' ,319)

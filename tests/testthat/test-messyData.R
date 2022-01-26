@@ -1,6 +1,6 @@
 testthat::test_that("The function computes properly messy data", {
 
-    # A data frame containing one missing value
+    # A data frame containing a combination of messy data
     df <- data.frame(
         product = c('SmartWatch', 'laptop', 'monitor', 'headphones', 'printer'),
         price_EUR = c(217, -517 ,'319', 'unknown price', 110)
